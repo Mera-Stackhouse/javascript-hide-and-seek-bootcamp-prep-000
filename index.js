@@ -29,5 +29,3 @@ function deepestChild() {
  console.log(targetNode.innerHTML);
  return targetNode;
 }
-
-deepestChild()
