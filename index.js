@@ -22,7 +22,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
- var targetNode = document.querySelector("#grand-node").firstChild.firstChild.firstChild.firstChild
+ var targetNode = document.querySelector("#grand-node").firstChild.firstChild.firstChild.firstChild;
  console.log(targetNode.innerHTML);
  return targetNode;
 }
