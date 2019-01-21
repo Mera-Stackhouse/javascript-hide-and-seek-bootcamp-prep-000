@@ -23,6 +23,6 @@ function increaseRankBy(n) {
 
 function deepestChild() {
  var targetNode = document.querySelector("#grand-node")
- console.log(targetNode);
+ console.log(targetNode.innerHTML);
  return targetNode;
 }
