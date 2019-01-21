@@ -26,6 +26,7 @@ function deepestChild() {
  targetNode = targetNode.firstChild;
  targetNode = targetNode.firstChild;
  targetNode = targetNode.firstChild;
+ targetNode = targetNode.firstChild;
  console.log(targetNode.innerHTML);
  return targetNode;
 }
